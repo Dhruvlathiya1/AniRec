@@ -1,0 +1,38 @@
+body{
+    background-color: #2b3041;
+}
+.button-contaniner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.btn:hover{
+    background-color: #ff2c2c;
+}
+#watch{
+    background-color: #ff2c2c;
+    
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.navbar .btn-outline-light:hover{
+    color: #333;
+}
+
+
+.navbar-op{
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.5) ;
+}
+.navbar{
+    transition: all 0.5 ease-in-out;
+
+}
+
+
+
+footer{
+    background-color: #2b3041;
+}
+

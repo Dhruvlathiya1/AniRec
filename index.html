@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/boot.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>AniRec</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img
+            src="image/New logo.svg"
+            class="nav-link"
+            alt=""
+            style="height: 40px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link fw-semibold">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link fw-semibold">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="contact.html"
+                class="nav-link btn btn-outline-light fw-semibold"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6 offset-3 d-grid">
+          <button
+            class="btn btn-primary btn-outline-dark fw-bold rounded-4 mt-6 mb-4"
+            id="rec"
+          >
+            Recommend Me
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- header -->
+    <header class="header" id="head">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="image-container md-4 px-5">
+              <img
+                src=""
+                id="poster"
+                alt=""
+                class="img-fluid rounded-2 w-100 h-100"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="text-container">
+              <h2
+                class="display-5 fw-bold mt-2 text-light text-center"
+                id="title"
+              ></h2>
+              <h5 class="lead text-light">
+                Japanese title : <span id="japtitle"></span>
+              </h5>
+              <h5 class="lead text-light">
+                English title : <span id="engtitle"></span>
+              </h5>
+
+              <p class="lead text-light">Rating : <span id="ratings"></span></p>
+              <p class="lead text-light">
+                Number of Episodes : <span id="Episodes"></span>
+              </p>
+              <p class="lead text-light">
+                Synopsis : <span id="Synopsis"></span>
+              </p>
+              <p class="lead text-light d-flex">
+                genre : <span id="genre"> </span>
+              </p>
+              <p class="lead text-light">
+                Studios : <span id="Studios"></span>
+              </p>
+              <div class="button-contaniner d-grid">
+                <a class="text-white fw-bold nav-link" id="watch" href=""
+                  >Plan To Watch</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row visually-hidden" id="trailer">
+          <div class="col-lg-12 d-flex justify-content-center mt-5">
+            <iframe
+              src=""
+              id="yt"
+              style="height: 280px; width: 500px"
+              frameborder="0"
+              class="rounded-1"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="display-1 text-white text-center text-capitalize mt-3">
+              AniRec
+            </h1>
+            <p class="lead text-white text-center a">
+              Place where new anime is found
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="lead text-light fs-5 text-center">
+              AniRec is the ultimate destination for anime lovers. Whether
+              you're looking for the latest trending anime, hidden gems, or
+              classic old school series, we've got you covered. Discover new,
+              underrated, and must-watch anime recommendations tailored just for
+              you. Explore our curated lists of anime across various genres,
+              from action-packed adventures and heartwarming romances to
+              spine-chilling horrors and thought-provoking dramas. Each
+              recommendation comes with detailed reviews and ratings to help you
+              make informed choices. Add your favorite anime to your MyAnimeList
+              profile seamlessly and keep track of what you've watched, what
+              you're currently watching, and what you plan to watch next. Share
+              your anime journey with friends and connect with a community of
+              fellow anime enthusiasts. Dive into the world of anime with AniRec
+              and find your next binge-worthy series today! Whether you're a
+              seasoned otaku or a newcomer to the anime scene, AniRec is here to
+              enhance your anime experience. Join us and embark on a journey
+              through the captivating and diverse world of anime. Stay updated
+              with the latest news in the anime industry, watch trailers for
+              upcoming releases, and participate in community discussions to
+              share your thoughts and theories. AniRec is more than just a
+              recommendation site; it's a hub for all things anime. Get ready to
+              discover, discuss, and dive deep into the vibrant world of
+              Japanese animation with AniRec.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="border-top border-primary text-light py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link link-light">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#details" class="nav-link link-light">Details</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link link-light"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="https://x.com/dhruvLathiya15" class="nav-link"
+                  ><i class="fa-brands fa-x-twitter text-light fs-4"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://www.instagram.com/_dhruv._.l?igsh=MTZlNXY1Y3VhOWtpdw=="
+                  target="_blank"
+                  class="nav-link"
+                  ><i class="fa-brands fa-instagram text-light fs-4"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://in.linkedin.com/in/dhruv-lathiya-492a0727b"
+                  target="_blank"
+                  class="nav-link"
+                  ><i class="fa-brands fa-linkedin text-light fs-4"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://github.com/Dhruvlathiya1"
+                  target="_blank"
+                  class="nav-link"
+                  ><i class="fa-brands fa-github text-light fs-4"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
